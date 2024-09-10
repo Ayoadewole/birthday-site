@@ -49,7 +49,7 @@ h2, h4 {
     border: 6px solid brown;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-image: url("C:/Users/ayoad/code/Birthday/birthday box.webp");
+    background-image: url("birthday box.webp");
     background-size: cover;
 }
 
@@ -58,20 +58,20 @@ h2, h4 {
 }
 
 .gift1:hover {
-    background-image: url("C:/Users/ayoad/code/Birthday/Birthday cake.webp");
+    background-image: url("Birthday cake.webp");
 }
 
 
 .gift2:hover {
-    background-image: url("C:/Users/ayoad/code/Birthday/Reaction.webp");
+    background-image: url("Reaction.webp");
 }
 
 .description:hover {
-    background-image: url("C:/Users/ayoad/code/Birthday/description.webp");
+    background-image: url("description.webp");
 }
 
 .awesome:hover {
-    background-image: url("C:/Users/ayoad/code/Birthday/awesome.webp");
+    background-image: url("awesome.webp");
 }
 
 .cheers {
@@ -79,7 +79,7 @@ h2, h4 {
 }
 
 .cheers:hover {
-    background-image: url("C:/Users/ayoad/code/Birthday/cheers.webp");
+    background-image: url("cheers.webp");
     height: 400px;
 }
 
