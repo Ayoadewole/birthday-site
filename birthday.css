@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #805b10, #b69121, grey);
+    color: #112A46;
+    text-shadow: 0 0 3px white;
+    border: 2px solid #8cb7d5;
+}
+
+.info, .gift, .cheers {
+    /*
+    background: center/cover url("c:/Users/ayoad/code/Birthday/cool.jpg") no-repeat;
+    margin: 5px auto;
+    width: 25%;
+    height: 25%;
+    justify-content: start;
+    */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pix {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    border: 5px solid pink;
+}
+
+h2, h4 {
+    background: pink;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+#info h4 {
+    margin-bottom: 50px;
+}
+
+.gift {
+    margin-top: 10px;
+}
+
+.gift1, .gift2, .description, .awesome, .cheers {
+    width: 400px;
+    border: 6px solid brown;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url("C:/Users/ayoad/code/Birthday/birthday box.webp");
+    background-size: cover;
+}
+
+.gift1, .gift2, .description, .awesome {
+    height: 400px;
+}
+
+.gift1:hover {
+    background-image: url("C:/Users/ayoad/code/Birthday/Birthday cake.webp");
+}
+
+
+.gift2:hover {
+    background-image: url("C:/Users/ayoad/code/Birthday/Reaction.webp");
+}
+
+.description:hover {
+    background-image: url("C:/Users/ayoad/code/Birthday/description.webp");
+}
+
+.awesome:hover {
+    background-image: url("C:/Users/ayoad/code/Birthday/awesome.webp");
+}
+
+.cheers {
+    height: 200px;
+}
+
+.cheers:hover {
+    background-image: url("C:/Users/ayoad/code/Birthday/cheers.webp");
+    height: 400px;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+footer a {
+    padding: 5px 10px;
+    background: brown;
+    border-radius: 4px;
+    border: 1px solid black;
+    color: white;
+    text-shadow: none;
+}
